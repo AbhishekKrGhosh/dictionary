@@ -17,7 +17,7 @@
         <div class="audio">
             <p>
                 {data.text}
-                <i class=" fa fa-play-circle" on:click={()=>playAudio(data.audio)}></i>
+                <i class="fa fa-play-circle" on:click={()=>playAudio(data.audio)}></i>
             </p>
         </div>
         {/each}
@@ -27,7 +27,7 @@
     <div class="meaning">
         <div class="part-of-speech">&bull; {meaning.partOfSpeech}</div>
         <div class="definitions">
-            {#each meaning.definition as data}
+            {#each meaning.definitions as data}
             <div class="definition">
                 <p>Definition: <b>{data.definition}</b></p>
                 {#if data.example}
