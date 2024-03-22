@@ -1,17 +1,49 @@
 # svelte app
 
 <h1>Dictionary App</h1>
+
+## This is a simple dictionary app developed using the Svelte framework and integrated with the Dictionary API to provide users with quick access to definitions and other details about English words.
+
 live link: https://65fd29d190f736d585773367--cheerful-zuccutto-3064b5.netlify.app/
+
+<hr/>
+
+![Screenshot 2024-03-22 122459](https://github.com/AbhishekKrGhosh/dictionary/assets/92973940/6ad56006-8abf-4b7f-b117-037c46a1dcbb)
+
+<hr/>
+
+
+![Screenshot 2024-03-22 122516](https://github.com/AbhishekKrGhosh/dictionary/assets/92973940/fa2b7dab-d1e4-4dc8-ba2c-fbfe5001309f)
+
+
+<hr/>
 <br/>
 
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+## Features
+
+- **Word Search:** Users can enter a word in the search box to retrieve its information from the Dictionary API.
+  
+- **Audio Pronunciation:** If available, the app provides audio pronunciation for the searched word, allowing users to listen to how the word is pronounced.
+
+- **Word Details:** The app displays comprehensive details about the word, including phonetics (pronunciation), part of speech, definitions, and example sentences.
+
+## Technologies Used
+
+- **Svelte:** The front-end of the app is built using the Svelte framework, known for its reactive and component-based approach to building user interfaces.
+
+- **Dictionary API:** The app integrates with the Dictionary API, which serves as the backend for fetching word definitions and related information.
+
+- **JavaScript (ES6+):** The project utilizes modern JavaScript features to handle asynchronous operations, manage state, and interact with the API.
+
+
+
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
+npx degit sveltejs/template dictionary-app
+cd disctionary-app
 ```
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
@@ -22,7 +54,7 @@ cd svelte-app
 Install the dependencies...
 
 ```bash
-cd svelte-app
+cd disctionary-app
 npm install
 ```
 
