@@ -1,8 +1,9 @@
-# This repo is no longer maintained. Consider using `npm init vite` and selecting the `svelte` option or — if you want a full-fledged app framework — use [SvelteKit](https://kit.svelte.dev), the official application framework for Svelte.
-
----
-
 # svelte app
+
+<h1>Dictionary App</h1>
+live link: https://65fd29d190f736d585773367--cheerful-zuccutto-3064b5.netlify.app/
+<br/>
+
 
 This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
 
