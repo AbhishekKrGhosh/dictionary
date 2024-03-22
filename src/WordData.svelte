@@ -7,7 +7,30 @@
 </script>
 
 <style>
-
+.word-data .audios{
+    border-bottom: 1px solid #ddd;
+}
+.word-data .audios .audio {
+    padding: 8px 20px;
+}
+.word-data .meaning{
+    padding: 0px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.word-data >:last-child {
+    border-bottom: none;
+}
+.word-data .meaning .part-of-speech {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 10px 0px 0px;
+}
+.word-data .meaning .definitions .definition{
+    padding: 8px 0px;
+}
+.word-data .meaning .definitions .definition p{
+    margin: 5px 0px;
+}
 </style>
 
 <div class="word-data">
