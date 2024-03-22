@@ -1,5 +1,6 @@
 <script>
 import Loader from "./Loader.svelte";
+import WordData  from "./WordData.svelte";
 
 let word = "";
 let loading = false;
@@ -15,6 +16,7 @@ async function searchWord(){
 		let data = await res.json();
 		if(Array.isArray(data)){
 			wordData = data[0];
+			
 		} else {
 			wordData = "No result";
 		}
@@ -40,7 +42,7 @@ async function searchWord(){
 	{#if loading === true || wordData !== null}
 	<div class="result">
 	{#if wordData !==  null && typeof wordData !== "string"}
-	<p>Found Data</p>
+	<WordData wordData={wordData}/>
 	{:else if wordData ===  null && loading === true}
 	<Loader/>
 	{:else}
